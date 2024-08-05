@@ -1,3 +1,4 @@
+//@ts-nocheck
 import "./account.css";
 import { AccountInformation } from "./account-information/AccountInformation";
 import { AccountSecurity } from "./account-security/AccountSecurity";

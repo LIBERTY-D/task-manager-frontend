@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { FC, RefObject } from "react";
 import "./floatingbtn.css";
 

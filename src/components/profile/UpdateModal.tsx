@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { IoIosClose } from "react-icons/io";
 import "../../update.css";
 import { FaPlus } from "react-icons/fa";

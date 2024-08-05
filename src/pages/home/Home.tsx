@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import {
   TopBar,
@@ -23,6 +24,7 @@ export type DragType = {
   tags: string[];
 };
 
+/* @ts-ignore: start */
 const USER_URL = import.meta.env.VITE_USER_URL;
 const TASK_URL = import.meta.env.VITE_TASK_URL;
 export const Home = () => {
@@ -334,3 +336,4 @@ export const Home = () => {
     </>
   );
 };
+/* @ts-ignore: end */

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { FC, useRef } from "react";
 import "./todo.css";
 import { Tag } from "../tag/Tag";

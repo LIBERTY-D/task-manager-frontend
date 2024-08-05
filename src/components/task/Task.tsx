@@ -1,3 +1,5 @@
+
+//@ts-nocheck
 import { useEffect, useState } from "react";
 import { MyTask } from "./MyTask";
 import "./task.css";

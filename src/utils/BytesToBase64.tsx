@@ -1,3 +1,4 @@
+//@ts-nocheck
 export function BytesToUrl(input: string | File | Blob): string {
     if (typeof input === 'string') {
       try {

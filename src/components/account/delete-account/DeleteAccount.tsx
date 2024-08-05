@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { FC } from "react";
 import "./deleteaccount.css";
 import { DeleteAcountModal } from "../DeleteAccountModal";

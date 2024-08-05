@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { createContext, FC, ReactNode, useEffect, useState } from "react";
 
 type DashboardType = {

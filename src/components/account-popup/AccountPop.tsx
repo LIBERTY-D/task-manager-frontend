@@ -1,7 +1,6 @@
 import { FaTasks } from "react-icons/fa";
 import "./accountpop.css";
 import { CiLocationOn, CiSettings } from "react-icons/ci";
-import { IoIosNotificationsOutline } from "react-icons/io";
 import { VscAccount } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { RiLogoutCircleLine } from "react-icons/ri";

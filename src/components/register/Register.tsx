@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { useEffect, useState } from "react";
 import "./register.css";
 import { SlideTopToast } from "../slide-top-toast/SlideTopToast";

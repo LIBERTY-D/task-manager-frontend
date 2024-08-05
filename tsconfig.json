@@ -1,5 +1,9 @@
 {
   "files": [],
+  "compilerOptions": {
+    "noUnusedLocals": true, // Ignore errors for declared but unused variables
+    "noUnusedParameters": true// Ignore errors for unused function parameters
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"

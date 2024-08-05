@@ -1,0 +1,67 @@
+.topbar{
+    background-color: #fff;
+    box-shadow: 13px 0px 3px 0px rgb(236, 236, 239);
+    height: 80px;
+    position: sticky;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    /* overflow: hidden; */
+    top: 0;
+}
+
+.topbar-container{
+   
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.topbar-container-logo{
+    margin-left: 10px;
+    flex: 1;
+    color:  #646cffaa;
+    font-weight: 900;
+}
+.topbar-container-search-container{
+    flex: 3;
+}
+.topbar-container-profile{
+
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+.topbar-container-profile:hover .account-pop{
+    position: absolute;
+    top: 100%;
+    transition: top 0.3s ease-in-out;
+}
+
+.topbar-container-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.topbar-container-profile-name{
+    color: #bb86fc;
+    text-transform: capitalize;
+    
+}
+
+@media (max-width:730px){
+    .topbar-container-profile-name{
+        display: none;
+        
+    }
+    .topbar-container-img{
+       margin-left: 10px;
+    }
+}

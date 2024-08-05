@@ -1,0 +1,21 @@
+.profile{
+    display:  flex;
+    gap: 50px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.main-content-profile h1{
+    margin-bottom: 50px;
+}
+
+@media(max-width:730px){
+    .profile{
+        display:  flex;
+        gap: 50px;
+        justify-content: center;
+      
+    }
+    .main-content-profile h1{
+        display: none;
+    }
+}

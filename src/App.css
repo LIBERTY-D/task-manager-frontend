@@ -1,0 +1,19 @@
+body,html{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ box-sizing: border-box;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+

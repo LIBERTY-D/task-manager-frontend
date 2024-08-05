@@ -1,0 +1,14 @@
+.tag {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border-radius: 8px;
+    font-size: 25px;
+    text-align: center;
+    /* width:20%; */
+    height: 30px;
+    transition: .3s;
+  }

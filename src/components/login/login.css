@@ -1,0 +1,105 @@
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 18px 0px 29px 1px rgba(215, 216, 225, 1);
+  }
+  
+  .login-form .title {
+    font-size: 28px;
+    color: royalblue;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+
+  .login-form .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: royalblue;
+  }
+  
+  .login-form .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+ 
+  
+  .signup {
+    text-align: center;
+  }
+  
+  .signup a {
+    color: royalblue;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  
+  .login-form label {
+    position: relative;
+  }
+  
+  .login-form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .login-form label .input + span {
+
+    color: green;
+    font-size: 18px;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+ 
+  
+  
+  
+ 
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }

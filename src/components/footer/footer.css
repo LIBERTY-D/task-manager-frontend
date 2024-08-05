@@ -1,0 +1,99 @@
+:root {
+  --light: #ffffff;
+  --dark: #000;
+}
+
+.footer h3 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.form-footer button {
+  cursor: pointer;
+  appearance: none;
+  border: 0;
+  background: transparent;
+}
+
+.footer_inner {
+  background: #5856d6;
+  backdrop-filter: blur(50px);
+  border: 0.1px solid rgba(233, 232, 232, 0.208);
+  box-shadow: 18px 0px 29px 1px rgba(215, 216, 225, 1);
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.footer {
+  background: var(--light);
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+}
+.main-footer-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100%, 400px);
+  border-bottom: 1px solid var(--dark);
+}
+
+.form-footer input {
+  padding: 0.75rem 0;
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  transition: border 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 0;
+  width: 100%;
+  font-size: 1.05rem;
+}
+.form-footer input:focus {
+  outline: none;
+}
+.c-link {
+  color: #2929cb;
+}
+.form-footer input::placeholder {
+  color: var(--dark);
+}
+@media (min-width: 675px) {
+  .layout {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 2rem;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-25 {
+    width: 25%;
+  }
+}
+.form-footer {
+  position: relative;
+}
+
+.c-2 {
+  margin-top: 3.5rem;
+}
+.footer_copyright {
+  color: var(--light);
+}

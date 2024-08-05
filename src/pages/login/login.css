@@ -1,0 +1,29 @@
+.login-page{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5% auto;
+width: 100%;
+}
+.login-header{
+    margin-right: 50px;
+}
+.login-header p{
+    color: blueviolet;
+    font-size: 23px;
+}
+
+.login-header h1{
+    color: cornflowerblue;
+}
+
+
+@media (max-width:768px){
+    .login-page{
+        flex-direction: column;
+    
+    } 
+    .login-header{
+         margin-right: 0;
+    }
+}

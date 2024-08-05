@@ -1,0 +1,15 @@
+.account-main{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+@media(max-width:730px){
+.account-main{
+        display:  flex;
+        justify-content: center;
+      
+    }
+    .content h1{
+        display: none;
+    }
+}

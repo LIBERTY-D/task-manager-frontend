@@ -1,0 +1,121 @@
+:root{
+        --field-color:#5856d6;
+}
+#personal-container {
+  height: auto;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  /* background: #fffffb; */
+  background-color: #15172b;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#personal-container .profile-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  background-image: linear-gradient(to right, rgb(23, 122, 250) 20%, rgb(3, 240, 209));
+  border-radius: 50%;
+}
+#personal-container  {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--field-color);
+}
+#personal-container .description {
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+#personal-container .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+#personal-container .social a {
+  text-align: center;
+  color: white;
+  border: solid 2px #ff6b6c;
+  width: 75px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+#personal-container .social a:hover {
+  background: #ff6b6c;
+  cursor: pointer;
+}
+#personal-container button {
+        background-color: #08d;
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        cursor: pointer;
+        font-size: 18px;
+        height: 50px;
+        margin-top: 38px;
+        text-align: center;
+        width: 100%;
+      
+      
+    
+      
+}
+#personal-container button:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(2px);
+  -webkit-animation: gradientBG 1.5s ease-in-out forwards;
+  animation: gradientBG 1.5s ease-in-out forwards;
+  cursor: pointer;
+  background: var(--field-color);
+}
+#personal-container button:active {
+    background-color: #06b;
+  }
+
+
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@media (max-width:730px){
+  #personal-container .profile-img {
+ 
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+
+  .personal-information{
+    margin-top: 50px;
+  }
+}

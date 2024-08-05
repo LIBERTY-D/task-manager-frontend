@@ -1,0 +1,153 @@
+:root{
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: rgba(255, 255, 255, .7);
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient( to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55 );
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+}
+
+.card-todo {
+    --border-radius: 0.75rem;
+    --primary-color: #7257fa;
+    --secondary-color: #3c3852;
+    width: 500px;
+    font-family: "Arial";
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    background: #ffff;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+    position: relative;
+    box-shadow: 0 4px 8px #f1f1f1;
+  }
+  .cart-todo-calender-complete-icons{
+    display: flex;
+    position: absolute;
+    right: 5px;
+  }
+  .todo-pin,.todo-complete{
+   
+    font-size: 25px;
+  }
+  
+  .todo-complete{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #07bc0c;
+  }
+
+  .card-todo-content {
+    color: var(--secondary-color);
+    font-size: 1rem;
+  }
+  
+  .card-todo-title {
+    padding: 0;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--primary-color);
+  }
+  
+  .card-todo-date {
+    color: #6e6b80;
+    font-size: 0.8rem;
+  }
+  
+  .card-todo-arrow {
+    position: absolute;
+    background: var(--primary-color);
+    padding: 0.4rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    bottom: 0;
+    right: 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-todo svg {
+    transition: 0.2s;
+  }
+  
+  /* hover */
+  .card-todo:hover .card-todo-title {
+    text-decoration: underline;
+  }
+  
+  .card-todo:hover .card-todo-arrow {
+    background: #111;
+  }
+  
+  .card-todo:hover .card-todo-arrow svg {
+    transform: translateX(3px);
+  }
+
+  .card-tags{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    
+  }
+.card-todo-buttons{
+    display:  flex;
+    row-gap: 3px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    align-items: center;
+}
+
+.todo-btn{
+   font-size: 18px;
+   background-color: white;
+   border: 1px solid white;
+   margin-right: 2px;
+   border-radius: 5px;
+   padding: 5px;
+}
+.todo-edit{
+  
+    color: var(--toastify-color-success);
+}
+.todo-del{
+    color: #111;
+}
+
+@media(max-width:730px){
+
+  .card-todo{
+    width: 90%;
+  }
+}

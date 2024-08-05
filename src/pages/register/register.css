@@ -1,0 +1,28 @@
+.register-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    width: 100%;
+    }
+    .register-header{
+        margin-right: 50px;
+    }
+    .register-header p{
+        color: blueviolet;
+        font-size: 23px;
+    }
+    
+    .register-header h1{
+        color: cornflowerblue;
+    }
+
+@media (max-width:768px){
+    .register-page{
+        flex-direction: column;
+    
+    } 
+    .register-header{
+        margin-right: 0;
+   }
+}

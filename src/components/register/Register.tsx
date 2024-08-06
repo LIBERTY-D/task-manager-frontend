@@ -141,6 +141,7 @@ export const Register = () => {
         <p className="message">Signup now on Task Manager. </p>
         <div className="flex">
           <label>
+          <span>username</span>
             <input
               value={registerData.username}
               placeholder=""
@@ -149,9 +150,10 @@ export const Register = () => {
               className="input"
               onChange={handleChange}
             />
-            <span>username</span>
+          
           </label>
           <label>
+          <span>Firstname</span>
             <input
               value={registerData.firstName}
               placeholder=""
@@ -160,10 +162,11 @@ export const Register = () => {
               className="input"
               onChange={handleChange}
             />
-            <span>Firstname</span>
+          
           </label>
 
           <label>
+          <span>Lastname</span>
             <input
               value={registerData.lastName}
               placeholder=""
@@ -172,11 +175,12 @@ export const Register = () => {
               className="input"
               onChange={handleChange}
             />
-            <span>Lastname</span>
+ 
           </label>
         </div>
 
         <label>
+        <span>Email</span>
           <input
             value={registerData.email}
             placeholder=""
@@ -185,10 +189,11 @@ export const Register = () => {
             className="input"
             onChange={handleChange}
           />
-          <span>Email</span>
+        
         </label>
 
         <label>
+        <span>Password</span>
           <input
             value={registerData.password}
             placeholder=""
@@ -197,9 +202,10 @@ export const Register = () => {
             className="input"
             onChange={handleChange}
           />
-          <span>Password</span>
+      
         </label>
         <label>
+        <span>Confirm password</span>
           <input
             value={registerData.confirmPassword}
             placeholder=""
@@ -208,7 +214,7 @@ export const Register = () => {
             className="input"
             onChange={handleChange}
           />
-          <span>Confirm password</span>
+       
         </label>
         <button className="submit" onClick={handleRegisterSubmit}>
           signup

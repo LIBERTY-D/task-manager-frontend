@@ -115,6 +115,7 @@ export const Login = () => {
         <p className="message">TaskManager making it simpler. </p>
 
         <label>
+        <span>Email</span>
           <input
             value={loginData.username}
             placeholder=""
@@ -123,10 +124,11 @@ export const Login = () => {
             className="input"
             onChange={handleChange}
           />
-          <span>Email</span>
+          
         </label>
 
         <label>
+        <span>Password</span>
           <input
             value={loginData.password}
             placeholder=""
@@ -135,7 +137,7 @@ export const Login = () => {
             className="input"
             onChange={handleChange}
           />
-          <span>Password</span>
+          
         </label>
 
         <button className="submit" onClick={handleLoginSubmit}>
